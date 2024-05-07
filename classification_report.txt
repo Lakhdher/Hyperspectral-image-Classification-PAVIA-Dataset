@@ -2,7 +2,7 @@ DATASET =PU
 Test ratio =0.2
 Window size =25
 
-0.002591925658634864 Test loss (%)
+0.002591924203443341 Test loss (%)
 100.0 Test accuracy (%)
 
 100.0 Kappa accuracy (%)
