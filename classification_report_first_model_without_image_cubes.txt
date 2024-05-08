@@ -1,0 +1,36 @@
+DATASET =PU
+Test ratio =0.2
+Window size =25
+
+16.961343586444855 Test loss (%)
+93.61851215362549 Test accuracy (%)
+
+91.48679274330456 Kappa accuracy (%)
+93.61851332398317 Overall accuracy (%)
+91.95552412645085 Average accuracy (%)
+
+                      precision    recall  f1-score   support
+
+             Asphalt       0.94      0.97      0.96      1326
+             Meadows       0.95      0.98      0.96      3730
+              Gravel       0.83      0.81      0.82       420
+               Trees       0.96      0.95      0.96       613
+Painted metal sheets       1.00      1.00      1.00       269
+           Bare Soil       0.92      0.82      0.87      1006
+             Bitumen       0.92      0.88      0.90       266
+Self-Blocking Bricks       0.90      0.87      0.88       737
+             Shadows       1.00      0.99      1.00       189
+
+            accuracy                           0.94      8556
+           macro avg       0.94      0.92      0.93      8556
+        weighted avg       0.94      0.94      0.94      8556
+
+[[1283    1    8    0    0    1   20   13    0]
+ [   0 3644    0   23    0   63    0    0    0]
+ [  15    4  342    0    0    0    0   59    0]
+ [   0   27    0  585    0    1    0    0    0]
+ [   0    0    0    0  269    0    0    0    0]
+ [   0  176    0    2    0  825    0    3    0]
+ [  32    0    0    0    0    0  234    0    0]
+ [  29    3   60    0    0    4    1  640    0]
+ [   1    0    0    0    0    0    0    0  188]]

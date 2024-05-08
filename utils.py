@@ -3,9 +3,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
 import scipy.io as sio
-from sklearn.base import accuracy_score
 from sklearn.decomposition import PCA
-from sklearn.metrics import classification_report, cohen_kappa_score, confusion_matrix
+from sklearn.metrics import classification_report, cohen_kappa_score, confusion_matrix, accuracy_score
 from sklearn.model_selection import train_test_split
 
 def loadData(name):

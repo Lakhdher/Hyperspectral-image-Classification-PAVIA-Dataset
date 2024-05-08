@@ -1,6 +1,6 @@
 HSI_dataset
 Pavia_Dataset
-best-model_IP_Source.hdf5
-first_best_model.keras
 __pycache__
+*.keras
+*.hdf5
 
